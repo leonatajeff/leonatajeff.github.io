@@ -1,3 +1,11 @@
+.container{
+    display:flex;
+}
+
+.element{
+    margin:auto;
+}
+  
 h1, h2, h3 {
     color: white;
     font-size: 24px;
@@ -13,14 +21,4 @@ html {
     font-family: 'Playfair Display', serif;
     background-color: #000000;
     text-align: center;
-}
-
-.cropped {
-    width: 350px;
-    height: 350px;
-    overflow: hidden;
-}
-
-.cropped img {
-    margin: -10px 0px 0px -300px;
 }
