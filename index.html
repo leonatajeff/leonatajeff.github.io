@@ -9,14 +9,17 @@
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="./styles.css">
-
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="./pagination.js"></script>
     </head>
     <!--Navbar-->
     <Body>
-        <div id="title-card">
+        <div class="title-card">
             <h1> Jefferson Leonata </h1>
-            <h2> Hey! I'm a sophomore CS student at Pitt. I hope you're doing well :)</h2>
+            <h2> Hey! I'm a sophomore CS student at Pitt :)</h2>
             <ul>
                 <li>
                     <a href="https://github.com/leonatajeff">Github ></a>
@@ -26,11 +29,33 @@
                 </li>
             </ul>
         </div>
-        <div id="portfolio-content">
+        <div class="portfolio-content">
             <footer>
                 <h3>
                     Working on the portfolio part...
                 </h3>
+                
+				<div class="pagination-wrapper">
+  					<svg class="btn btn--prev" height="96" viewBox="0 0 24 24" width="96" xmlns="http://www.w3.org/2000/svg">
+    					<path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/>
+    					<path d="M0-.5h24v24H0z" fill="none"/>
+  					</svg>
+  
+  					<div class="pagination-container">
+    					<div class="little-dot  little-dot--first"></div>
+    					<div class="little-dot">
+      						<div class="big-dot-container">
+       							<div class="big-dot"></div>
+      						</div>
+    					</div>
+    					<div class="little-dot  little-dot--last"></div>
+  					</div>
+  
+  					<svg class="btn btn--next" height="96" viewBox="0 0 24 24" width="96" xmlns="http://www.w3.org/2000/svg">
+    					<path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
+    					<path d="M0-.25h24v24H0z" fill="none"/>
+  					</svg>
+				</div>
             </footer>
         </div>
     </Body>
