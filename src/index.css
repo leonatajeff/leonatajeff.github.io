@@ -31,14 +31,14 @@ h1 {
   color: linear-gradient(180deg, rgba(234,250,231,1) 0%, rgba(250,250,250,1) 82%);
 }
 
-button {
+.btn {
   text-decoration: none;
   border: 1px solid rgba(234,250,231,1);
   position: relative;
   overflow: hidden;
 }
 
-button:before {
+.btn:before {
   content: "";
   position: absolute;
   top: 0;
@@ -54,7 +54,7 @@ button:before {
   transition: all 650ms;
 }
 
-button:hover:before {
+.btn:hover:before {
   left: 100%;
 }
 
